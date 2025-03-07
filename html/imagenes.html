@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Imgenes en html</title>
+        <link rel="stylesheet" href="../css/Style.css" type="text/css"
+        >
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <head>
+
+  <style>
+      section{
+          text-align: center;
+      }
+      img{
+          width: 25%;
+          min-width: 200px;
+          display: inline-block;
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+      p, h2{
+          text-align: justify;
+      }
+      #img_gray{
+          filter: grayscale(100%);
+      }
+      #img_brillo{
+          filter: brightness(150%);
+      }
+      #img_invertido{
+          filter: invert(100%);
+      }
+      #img_opacidad{
+          filter: opacity(50%);
+      }
+      #img_saturacion{
+          filter: saturate(200%);
+      }
+      #img_sepia{
+          filter: sepia(100%);
+      }
+      #img_blur{
+          filter: blur(3px);
+      }
+      #img_hue{
+          filter: hue-rotate(80deg);
+      }
+      #img_sombra{
+          filter: drop-shadow(5px 5px 5px green);
+      }
+      #img_combinado{
+          filter: invert(100%) drop-shadow(5px 5px 5px blue);
+              
+      }
+      footer h6{ 
+                text-align: center; 
+            } 
+ </style>
+</head>
+    </head>
+    <body>
+        <header>
+            <h1>IMAGENES EN HTML</h1>
+            
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" target="_blank">Inicio</a></li>
+                <li><a href="../html/formatos.html" target="_blank">Formatos</a></li>
+                <li><a href="../html/listas.html" target="_blank">Listas</a></li>
+                <li><a href="../html/enlaces.html" target="_blank">Enlaces</a></li>
+                <li><a href="../html/tablas.html" target="_blank">Tablas</a></li>
+                <li><a href="../html/imagenes.html" target="_blank">Imagenes</a></li>
+                <li><a href="../html/audio.html" target="_blank">Audio</a></li>
+                <li><a href="../html/videos.html" target="_blank">Video</a></li>
+                <li><a href="../html/encuestas.html" target="_blank">Encuestas</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Imagen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                <img class="animate__animated animate__bounceIn animate__repeat-3" src="../imagenes/perro%201.jpg" alt="Perro bellako">
+            </section>
+            <section>
+                <h2>Imagen gift</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                <img id="perro_3" src="../imagenes/perro%203.gif" alt="perro3">
+            </section>
+            <section>
+                <h2>Icono</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                <a href="https://es.wikipedia.org/wiki/Canis_familiaris" target="_blank"><img class="animate__animated animate__shakeY animate__delay-3s animate__infinite" id="perro_icono" src="../imagenes/perro%20icono.png" alt="perro de icono" target="_blank"></a>
+            </section>
+            <section>
+                <h2>Iconos</h2>
+                <p><img id=img_left src="../imagenes/amar.png" alt="perro icono 2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                <p><img id=img_right src="../imagenes/perro%20icono%202.png" alt="perro icono 3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.</p>
+                
+            </section>
+               <section id="fondo_imagen">
+                   <h2 style="color: skyblue; font-size: 48px; font-weight: bold;">Imagenes con fondo</h2>
+                   <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. .</p>
+                    <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. .</p>
+                    
+                   
+               </section>
+               <section>
+                   <h2>Imagen con filtro</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas. Aliquam venenatis, metus eu maximus luctus, libero sapien tincidunt metus, vitae venenatis mauris augue sit amet nunc. Donec eu iaculis magna, sit amet convallis tellus. Phasellus at nisl et quam varius mattis non id dolor. Pellentesque rutrum finibus tellus vel condimentum. Ut ornare aliquet quam sit amet viverra. Sed non nibh sagittis, dapibus dui ut, maximus sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur malesuada eros. Aenean vestibulum dui a nibh lacinia, laoreet rutrum eros maximus. Morbi quam est, efficitur sed eros nec, condimentum dignissim odio. Proin vulputate eros in dui sagittis lacinia. Donec vehicula euismod nibh sit amet egestas.</p>
+                <img id="img_gray" src="../imagenes/perro%201.jpg">
+                <img id="img_brillo" src="../imagenes/perro%201.jpg">
+                <img id="img_invertido" src="../imagenes/perro%201.jpg">
+                <img id="img_opacidad" src="../imagenes/perro%201.jpg">
+                <img id="img_saturacion" src="../imagenes/perro%201.jpg">
+                <img id="img_sepia" src="../imagenes/perro%201.jpg">
+                <img id="img_blur" src="../imagenes/perro%201.jpg">
+                <img id="img_hue" src="../imagenes/perro%201.jpg">
+                <img id="img_sombra" src="../imagenes/perro%201.jpg">
+                <img id="img_combinado" src="../imagenes/perro%201.jpg">
+               </section>
+               
+        </main>
+        <footer>
+            <h6>Elaborado por Osiel Francisco Gutierrez Juarez</h6>
+        </footer>
+    </body>
+
+</html>
